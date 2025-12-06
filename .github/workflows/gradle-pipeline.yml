@@ -45,8 +45,10 @@ jobs:
 
       - name: Generate Job Summary
         if: always()
-        run: echo "### Status do Build Gradle 🚀" >> $GITHUB_STEP_SUMMARY && echo "Resultado: ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
-
+        run: |
+          echo "### Status do Build Gradle 🚀" >> $GITHUB_STEP_SUMMARY
+          echo "Resultado: ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+          
   # Simulação de Deploy (Requisito do TP5)
   deploy-staging:
     needs: build-and-test
