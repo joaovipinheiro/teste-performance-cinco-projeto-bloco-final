@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.infnet.selenium.PersonCrudTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-12-06T18:07:54" hostname="DESKTOP-S1AP3CE" time="5.092">
+  <properties/>
+  <testcase name="1. Deve criar uma nova pessoa com sucesso" classname="br.com.infnet.selenium.PersonCrudTest" time="1.11"/>
+  <testcase name="2. Deve editar uma pessoa existente" classname="br.com.infnet.selenium.PersonCrudTest" time="1.07"/>
+  <testcase name="3. Deve excluir uma pessoa" classname="br.com.infnet.selenium.PersonCrudTest" time="0.866"/>
+  <testcase name="4. Deve validar campos obrigatórios" classname="br.com.infnet.selenium.PersonCrudTest" time="1.007"/>
+  <testcase name="5. Deve cancelar criação de pessoa" classname="br.com.infnet.selenium.PersonCrudTest" time="1.038"/>
+  <system-out><![CDATA[2025-12-06T15:07:53.993-03:00  INFO 35368 --- [    Test worker] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-12-06T15:07:54.001-03:00  INFO 35368 --- [    Test worker] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\balat\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-12-06T15:07:54.581-03:00  WARN 35368 --- [    Test worker] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 142
+2025-12-06T15:07:54.582-03:00  WARN 35368 --- [    Test worker] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 142.0.7444.177. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Novo ID gerado: 3
+Pessoa salva/atualizada: br.com.infnet.model.Person@6665034c
+2025-12-06T15:07:55.697-03:00  WARN 35368 --- [    Test worker] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 142
+2025-12-06T15:07:55.697-03:00  WARN 35368 --- [    Test worker] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 142.0.7444.177. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Pessoa salva/atualizada: br.com.infnet.model.Person@6665034c
+2025-12-06T15:07:56.767-03:00  WARN 35368 --- [    Test worker] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 142
+2025-12-06T15:07:56.767-03:00  WARN 35368 --- [    Test worker] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 142.0.7444.177. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Pessoa removida: 3 - sucesso: true
+2025-12-06T15:07:57.617-03:00  WARN 35368 --- [    Test worker] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 142
+2025-12-06T15:07:57.618-03:00  WARN 35368 --- [    Test worker] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 142.0.7444.177. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-06T15:07:58.641-03:00  WARN 35368 --- [    Test worker] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 142
+2025-12-06T15:07:58.641-03:00  WARN 35368 --- [    Test worker] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 142.0.7444.177. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

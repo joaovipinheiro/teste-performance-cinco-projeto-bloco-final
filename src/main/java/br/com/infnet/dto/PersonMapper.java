@@ -17,10 +17,10 @@ public class PersonMapper {
     public static Person toEntity(PersonDTO dto) {
         if (dto == null) return null;
         return new Person(
-                dto.getId(),
-                dto.getName(),
-                dto.getEmail(),
-                dto.getPhone()
+                dto.id(),      // Mudou de getId() para id()
+                dto.name(),    // Mudou de getName() para name()
+                dto.email(),   // Mudou de getEmail() para email()
+                dto.phone()    // Mudou de getPhone() para phone()
         );
     }
 }

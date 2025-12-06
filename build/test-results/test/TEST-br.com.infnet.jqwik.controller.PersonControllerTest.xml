@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.infnet.jqwik.controller.PersonControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-12-06T18:07:41" hostname="DESKTOP-S1AP3CE" time="5.747">
+  <properties/>
+  <testcase name="testSimulateTimeout()" classname="br.com.infnet.jqwik.controller.PersonControllerTest" time="5.739"/>
+  <testcase name="testFailFastThrowsException()" classname="br.com.infnet.jqwik.controller.PersonControllerTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

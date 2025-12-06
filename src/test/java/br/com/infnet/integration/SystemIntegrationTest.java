@@ -24,8 +24,8 @@ class SystemIntegrationTest {
         PersonDTO dto = new PersonDTO(null, "João", "joao@mail.com", "99999");
         PersonDTO saved = integration.savePerson(dto);
 
-        assertNotNull(saved.getId());
-        assertEquals("João", saved.getName());
+        assertNotNull(saved.id());        // Mudou
+        assertEquals("João", saved.name()); // Mudou
     }
 
     @Test
@@ -33,7 +33,7 @@ class SystemIntegrationTest {
         integration.savePerson(new PersonDTO(null, "Ana", "ana@mail.com", "88888"));
         integration.savePerson(new PersonDTO(null, "Pedro", "pedro@mail.com", "77777"));
 
-        assertEquals(3, integration.getAllPersons().size()); // +1 inicial
+        assertEquals(3, integration.getAllPersons().size());
     }
 
     @Test
@@ -45,6 +45,6 @@ class SystemIntegrationTest {
 
         sync.flushSync();
         assertEquals(0, sync.getSyncCount());
-        assertEquals(2, integration.getAllPersons().size()); // +1 inicial
+        assertEquals(2, integration.getAllPersons().size());
     }
 }

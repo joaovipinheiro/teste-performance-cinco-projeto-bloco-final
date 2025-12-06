@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.infnet.selenium.InvalidInputTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-06T18:07:51" hostname="DESKTOP-S1AP3CE" time="1.1">
+  <properties/>
+  <testcase name="testInvalidInput()" classname="br.com.infnet.selenium.InvalidInputTest" time="1.1"/>
+  <system-out><![CDATA[2025-12-06T15:07:51.398-03:00  INFO 35368 --- [    Test worker] i.g.bonigarcia.wdm.WebDriverManager      : Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-12-06T15:07:51.406-03:00  INFO 35368 --- [    Test worker] i.g.bonigarcia.wdm.WebDriverManager      : Exporting webdriver.chrome.driver as C:\Users\balat\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-12-06T15:07:51.996-03:00  WARN 35368 --- [    Test worker] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 142
+2025-12-06T15:07:51.997-03:00  WARN 35368 --- [    Test worker] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 142.0.7444.177. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
