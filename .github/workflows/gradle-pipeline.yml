@@ -26,10 +26,10 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
 
-      # --- ESTE É O PASSO QUE ESTÁ FALTANDO ---
+      # --- ESTE É O PASSO QUE ESTÁ FALTANDO NO SEU ARQUIVO ---
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
-      # ----------------------------------------
+      # -------------------------------------------------------
 
       # Passo obrigatório: Build com Gradle
       - name: Build with Gradle
